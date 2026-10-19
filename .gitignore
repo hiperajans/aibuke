@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Composer
+/vendor/
+
+# Logs
+*.log
+
+# Uploads (klasör yapısı korunur, içerik yüklenmez)
+/uploads/*
+!/uploads/*/
+/uploads/*/*
+!/uploads/*/.gitkeep
+
+# Cache
+/cache/
+/tmp/
+
+# Yerel araç ayarları ve yedekler
+/.claude/
+*.bak*
